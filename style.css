@@ -1,3 +1,42 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
+body{
+  background-color: #f7f7f7
+}
+
+/* NAVBAR STYLE  */
+
+.nav-item a{
+  font-weight: 600;
+
+}
+.nav-item a:hover{
+    color: #f7e200 !important;
+    border-bottom: 2px solid #f7e200;
+    transition: linear all 0.4s;
+
+}
+
+#home h3{
+  font-size: 2rem;
+}
+
+#home h1{
+  font-size: 4rem;
+  letter-spacing: 6px;
+}
+
+#home .row{
+  background-color: #f7f7f7
+}
+
+
+/* CONNECT SECTION STYLE  */
+
+#connectme .btn a:hover{
+  color: rgb(0, 153, 255) !important;
+  text-decoration: none;
+}
+
