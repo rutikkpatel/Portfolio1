@@ -40,3 +40,9 @@ body{
   text-decoration: none;
 }
 
+
+@media only screen and (max-width: 768px){
+#home h1 {
+    font-size: 3rem !important;
+}
+}
