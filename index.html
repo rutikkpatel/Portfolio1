@@ -35,8 +35,10 @@
 
 </head>
 
-<body>
-
+<body onload="mypreloadfun()">
+    <!-- Preloader Start -->
+    <div id="preloader"></div>
+    <!-- Preloader End -->
 
     <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -73,7 +75,7 @@
 <!-- NAME SECTION START -->
 
 <section id="home">
-    <div class="container-fluid my-5">
+    <div class="container-fluid my-5" data-aos="zoom-in">
         <div class="row ">
             <div
             class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex flex-column justify-content-center align-items-center">
@@ -353,6 +355,12 @@ style="width:100%">
         offset: 140
     }
     );
+</script>
+<!-- Preloader script -->
+<script>
+    function mypreloadfun(){
+            document.getElementById("preloader").style.display = "none";
+        }
 </script>
 </body>
 
