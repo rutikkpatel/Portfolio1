@@ -9,8 +9,15 @@ body{
 #preloader{
     width: 100%;
     height: 600px;
-    background-color: #f1f2f3;
-    background-image: url(images/Double_Ring.gif);
+  
+    /*RING PRELOADER*/
+    /*background-color: #f1f2f3;
+    background-image: url(images/Double_Ring.gif);*/
+
+    /*BOUNCING R PRELOADER*/
+    background-color: #fff;
+    background-image: url(images/bouncing-r.gif);
+    
     background-repeat: no-repeat;
     background-position: center;
 }
