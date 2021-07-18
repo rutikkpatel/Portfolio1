@@ -1,0 +1,92 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+
+#preloader{
+    width: 100%;
+    height: 700px;
+
+    /*RING PRELOADER*/
+    /*background-color: #f1f2f3;
+    background-image: url(images/Double_Ring.gif);*/
+
+    /*BOUNCING R PRELOADER*/
+    background-color: #fff;
+    background-image: url(../images/bouncing-r.gif);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* NAVBAR STYLE  */
+
+.nav-item a{
+  font-weight: 600;
+
+}
+.nav-item a:hover{
+    color: #f7e200 !important;
+    border-bottom: 2px solid #f7e200;
+    transition: linear all 0.4s;
+
+}
+
+/* NAME SECTION */
+#home h3{
+  font-size: 2rem;
+}
+
+#home h1{
+  font-size: 4rem;
+  letter-spacing: 6px;
+}
+
+
+@media only screen and (max-width: 475px) {
+  #home h1 {
+    font-size: 3.3rem;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  #home h1 {
+    font-size: 2.6rem;
+  }
+}
+
+/* Tablet,ipad etc  */
+@media only screen and (min-width: 576px) and (max-width: 951px) {
+  #home h1 {
+    font-size: 2rem;
+  }
+}
+
+#home .row{
+  background-color: #f7f7f7;
+}
+
+
+/* CONNECT SECTION */
+
+#connectme .btn a:hover{
+  color: rgb(0, 153, 255) !important;
+  text-decoration: none;
+}
+
+
+/* BACK TO TOP */
+.back-to-top {
+    position: fixed;
+    bottom: -9px;
+    right: -9px;
+    display: none;
+    background-image: linear-gradient(45deg, #38ecdb99, #8396f3b8);
+    font-size: 1.8rem;
+    border: 0px;
+    border-radius: 50% 0% 0% 100% / 50% 0% 0% 0% ;
+}
