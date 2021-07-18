@@ -9,7 +9,7 @@ body{
 
 #preloader{
     width: 100%;
-    height: 700px;
+    height: 100vh;
 
     /*RING PRELOADER*/
     /*background-color: #f1f2f3;
