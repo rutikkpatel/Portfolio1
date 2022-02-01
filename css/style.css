@@ -27,11 +27,12 @@ body{
 
 .nav-item a{
   font-weight: 600;
+  border-bottom: 2px solid transparent;
 
 }
 .nav-item a:hover{
     color: #f7e200 !important;
-    border-bottom: 2px solid #f7e200;
+    border-color: #f7e200;
     transition: linear all 0.4s;
 
 }
