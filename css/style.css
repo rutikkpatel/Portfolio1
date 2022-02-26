@@ -72,6 +72,12 @@ body{
 }
 
 
+/* Projects section */
+#projects .btn{
+  border-radius: 11px;
+}
+
+
 /* CONNECT SECTION */
 
 #connectme .btn a:hover{
